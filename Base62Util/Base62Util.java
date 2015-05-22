@@ -7,10 +7,7 @@ import cn.t.common.Config;
 import cn.t.common.ExcepFactor;
 import cn.t.common.SinaurlException;
 
-/**
- * @author tangfulin
- * 
- */
+
 public class Base62Util {
 
 	private static final String seed = Config.getProperty("base62.seed");
