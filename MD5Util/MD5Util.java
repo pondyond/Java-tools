@@ -1,7 +1,6 @@
 /**
  * 
  */
-package cn.t.utils;
 
 import java.nio.charset.Charset;
 import java.security.MessageDigest;
