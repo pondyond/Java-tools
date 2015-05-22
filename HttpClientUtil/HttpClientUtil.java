@@ -16,12 +16,11 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
  
 /**
- * »ùÓÚ httpclient 4.3.1°æ±¾µÄ http¹¤¾ßÀà
+ * åŸºäº httpclient 4.3.1ç‰ˆæœ¬çš„ httpå·¥å…·ç±»
  * 
  * @author zhaoyang
  *
  */
- 
  
 public class HttpClientUtil {
  
@@ -40,11 +39,11 @@ public class HttpClientUtil {
         return doPost(url, params,CHARSET);
     }
     
-      HTTP Get »ñÈ¡ÄÚÈİ
-      @param url  ÇëÇóµÄurlµØÖ· Ö®Ç°µÄµØÖ·
-      @param params ÇëÇóµÄ²ÎÊı
-      @param charset    ±àÂë¸ñÊ½
-      @return    Ò³ÃæÄÚÈİ
+      HTTP Get è·å–å†…å®¹
+      @param url  è¯·æ±‚çš„urlåœ°å€ ä¹‹å‰çš„åœ°å€
+      @param params è¯·æ±‚çš„å‚æ•°
+      @param charset    ç¼–ç æ ¼å¼
+      @return    é¡µé¢å†…å®¹
      
     public static String doGet(String url,MapString,String params,String charset){
         if(StringUtils.isBlank(url)){
@@ -83,11 +82,11 @@ public class HttpClientUtil {
     }
      
     
-      HTTP Post »ñÈ¡ÄÚÈİ
-      @param url  ÇëÇóµÄurlµØÖ· Ö®Ç°µÄµØÖ·
-      @param params ÇëÇóµÄ²ÎÊı
-      @param charset    ±àÂë¸ñÊ½
-      @return    Ò³ÃæÄÚÈİ
+      HTTP Post è·å–å†…å®¹
+      @param url  è¯·æ±‚çš„urlåœ°å€ ä¹‹å‰çš„åœ°å€
+      @param params è¯·æ±‚çš„å‚æ•°
+      @param charset    ç¼–ç æ ¼å¼
+      @return    é¡µé¢å†…å®¹
      
     public static String doPost(String url,MapString,String params,String charset){
         if(StringUtils.isBlank(url)){
@@ -130,7 +129,7 @@ public class HttpClientUtil {
     public static void main(String []args){
         String getData = doGet(httpwww.oschina.net,null);
         System.out.println(getData);
-        System.out.println(----------------------·Ö¸îÏß-----------------------);
+        System.out.println(----------------------åˆ†å‰²çº¿-----------------------);
         String postData = doPost(httpwww.oschina.net,null);
         System.out.println(postData);
     }
