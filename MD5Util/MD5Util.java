@@ -6,10 +6,7 @@ package cn.t.utils;
 import java.nio.charset.Charset;
 import java.security.MessageDigest;
 
-/**
- * @author tangfulin
- * 
- */
+
 public class MD5Util {
 
 	public static final int hexbase = 16;
