@@ -1,7 +1,6 @@
 /**
  * 
  */
-package cn.t.utils;
 
 import cn.t.common.Config;
 import cn.t.common.ExcepFactor;
